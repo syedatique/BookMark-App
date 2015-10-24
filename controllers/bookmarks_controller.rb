@@ -2,7 +2,7 @@ get '/bookmarks' do   # Reading
     if params[:search]
       @bookmarks = Bookmark.all(genre: params[:search])
     else
-      @bookmark = Bookmark.all
+      @bookmarks = Bookmark.all
     end
     erb :'bookmarks/index'
   end
