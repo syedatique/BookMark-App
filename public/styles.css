@@ -1,0 +1,20 @@
+body{
+  background-image: none;
+  background-color: #E3CAA1;
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  font-size: 150%;
+}
+
+ul li {
+  font: bold 12px/18px sans-serif;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  }
