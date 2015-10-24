@@ -29,7 +29,7 @@ class DBBase
   end
 
   def self.run_sql(sql)
-    conn = PG.connect(dbname: 'bookmarkers', host: 'localhost')
+    conn = PG.connect(dbname: 'bookmark', host: 'localhost')
     begin
       result = conn.exec(sql)
     ensure

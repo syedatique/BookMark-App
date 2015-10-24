@@ -3,11 +3,10 @@ require 'sinatra'
 require 'sinatra/contrib/all' if development?
 require 'pg'
 
-require_relative 'controllers/bookmarkers_controller'
-
 require_relative 'models/db_base'
-require_relative 'models/bookmarker'
+require_relative 'models/bookmark'
 
+require_relative 'controllers/bookmarks_controller'
 
 get '/' do
   erb :home
