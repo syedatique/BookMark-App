@@ -1,21 +1,17 @@
-<a href='/bookmarks/new'>New Bookmark</a>
-
-<form method="get" action="/bookmarks">
-  <input type="text" id="search" name="search">
-  <button>Search Bookmark Genre</button>
-</form>
-
-<ul>
+<nav>
   <% @bookmarks.each do |bookmark| %>
-  <li>
-    <%= bookmark.genre %>
-    <%= bookmark.title %>
-    <%= bookmark.url %>
-    <a href="/bookmarks/<%= bookmark.id %>">Show</a>
-    <a href='/bookmarks/<%=bookmark.id%>/edit'>Edit</a>
-    <form action='/bookmarks/<%=bookmark.id%>/delete' method='post'>
-      <button>Delete</button>
-    </form>
-  </li>
+    <h4>  <%= bookmark.title %>   </h4>
+    
+    
+    <ul class="button-group">
+      <li><a href='/bookmarks/<%= bookmark.id%>' class="button">Show</a></li>
+      <li><a href='/bookmarks/<%= bookmark.id%>/edit' class="button">Edit</a></li>
+      <li>
+      <form action='/bookmarks/<%=bookmark.id%>/delete' method='post'>
+        <button>Delete</button>
+      </form>
+
+      </li>
+    </ul>
   <% end %>
-</ul>
+</nav>

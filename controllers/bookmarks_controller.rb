@@ -24,7 +24,6 @@ end
 
 get '/bookmarks/:id' do
   @bookmark = Bookmark.find(params[:id])
-  # erb :'bookmarks/edit'
   erb :'bookmarks/show'
 end
 

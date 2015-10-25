@@ -1,8 +1,8 @@
 create table bookmarks (
   id serial4 primary key,
-  title varchar(255),
+  title varchar(255) not null,
   url varchar(255),
-  genre text,
+  genre varchar(255),
   details text
 );
 

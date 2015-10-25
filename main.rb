@@ -11,3 +11,7 @@ require_relative 'controllers/bookmarks_controller'
 get '/' do
   erb :home
 end
+
+get '/about' do
+  erb :about
+end
