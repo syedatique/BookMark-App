@@ -12,11 +12,11 @@
       <h1 style="text-align:center; color:blue">Bookmarker App</h1>
     </header>
     <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
+      <!-- <ul class="title-area">
         <li class="has-form">
           <div class="row collapse">
             <div class="large-8 small-1 columns">
-              <input type="text" id = 'search' name = 'search' placeholder="Type Saved BookMark Genre">
+              <input type="text" autocomplete="on|off" id = 'search' name = 'search' placeholder="Type Saved BookMark Genre">
             </div>
             <div class="large-4 small-3 columns">
               <a href='/bookmarks' class="alert button expand">Search</a>
@@ -24,7 +24,17 @@
           </div>
         </li>
       </ul>
+ -->
 
+    <section class="top-bar-section">
+      <!-- Right Nav Section -->
+      <ul class="left">
+        <form autocomplete="on" method="get" action='/bookmarks'>
+          <li><input type="text" autocomplete="on" name ='search' placeholder="Type Saved BookMark Genre"></li>
+          <li><button>Search</button></li>
+        </form>
+      </ul>
+    </section>
       <section class="top-bar-section">
         <!-- Right Nav Section -->
         <ul class="right">

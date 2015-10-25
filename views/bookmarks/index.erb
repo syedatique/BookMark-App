@@ -1,6 +1,10 @@
 <nav>
   <% @bookmarks.each do |bookmark| %>
-    <h4>  <%= bookmark.title %>   </h4>
+   <!--  <p>Title:</p><h5><%= bookmark.title %></h5> -->
+
+
+    <h5>Title: <%= bookmark.title %>; Genre: <%= bookmark.genre %></h5>
+    
     
     
     <ul class="button-group">

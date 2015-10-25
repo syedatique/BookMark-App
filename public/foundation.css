@@ -56,7 +56,7 @@ body {
 
 body {
   background: #fff;
-  background-image: url('http://data.whicdn.com/images/34383873/original.jpg');
+  background-image: url('http://www.nicehdwallpaper.com/wp-content/uploads/2013/02/smile-coffee-cup-hd-3D-desktop-wallpaper.jpg');
   color: #222;
   cursor: auto;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -6813,19 +6813,19 @@ th.hide-for-touch {
         top: 0;
         position: relative;
         -webkit-animation-name: resize;
-        -webkit-animation-duration: 5s;
+        -webkit-animation-duration: 2s;
         -webkit-animation-iteration-count: infinite;
         -webkit-animation-direction: alternate;
         -moz-animation-name: resize;
-        -moz-animation-duration: 5s;
+        -moz-animation-duration: 2s;
         -moz-animation-iteration-count: infinite;
         -moz-animation-direction: alternate;
         -o-animation-name: resize;
-        -o-animation-duration: 5s;
+        -o-animation-duration: 2s;
         -o-animation-iteration-count: infinite;
         -o-animation-direction: alternate;
         animation-name: resize;
-        animation-duration: 5s;
+        animation-duration: 2s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
       }
